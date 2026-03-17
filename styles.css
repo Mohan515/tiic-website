@@ -1,0 +1,81 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Styling the Container */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+}
+
+/* Login Box */
+.login-box {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+/* Header */
+.login-box h1 {
+  font-size: 1.8rem;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+description {
+  font-size: 0.9rem;
+  color: #777777;
+  margin-bottom: 30px;
+}
+
+/* Input Fields */
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Button */
+.btn-login {
+  background: #6a11cb;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-login:hover {
+  background: #4e09ad;
+  transition: 0.3s;
+}
+
+/* Forgot Password Link */
+.forgot-password {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #6a11cb;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
